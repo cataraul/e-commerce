@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Homepage from "./Components/Homepage";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import "./styles/styles.scss";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <AppWrapper>
       <Navbar />
       <Homepage />
+      <Footer />
     </AppWrapper>
   );
 }
